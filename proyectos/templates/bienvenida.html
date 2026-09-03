@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titulo }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f5f7; color: #172b4d; }
+        .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto; }
+        h1 { color: #0052cc; }
+        .badge { background-color: #deebff; color: #0747a6; padding: 5px 10px; border-radius: 4px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>{{ titulo }}</h1>
+        <p>{{ descripcion }}</p>
+        <hr>
+        <p><strong>Estado del sistema:</strong> <span class="badge">{{ estado }}</span></p>
+        <p><strong>Total de tableros iniciales:</strong> {{ cantidad_tableros }}</p>
+    </div>
+</body>
+</html>
