@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 def bienvenida(request):
     titulo_app = "TaskBoard - Gestor de Proyectos"
-    descripcion_app = "Sistema backend para la gestión colaborativa de tableros, listas y tarjetas de tareas."
+    descripcion_app = "Sistema para la gestión colaborativa de tableros, listas y tarjetas de tareas."
     tableros_activos = 0
     sistema_activo = True
     
